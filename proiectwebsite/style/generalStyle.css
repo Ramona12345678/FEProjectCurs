@@ -1,0 +1,90 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+.fifty{
+    flex: 50%;
+}
+a:hover{
+    cursor:pointer;
+}
+.pictureZone{
+    flex:30%;
+    padding-left: 10px;
+}
+.imageClass{
+    border: 1px gray;
+    border-radius: 10px;
+}
+.textZone{
+    flex:30%;
+    padding-left: 20px;
+}
+.CTA{   
+/*background-image: url(https://d1p2fuior9l0tb.cloudfront.net/wp-content/uploads/2017/02/14110014/tory-burch-header.jpg);*/
+/*background-image: url(https://smartdenim.files.wordpress.com/2014/09/jeans-pants-fashion-website-header.jpg);*/
+/*background-image: url(https://data.whicdn.com/images/122495365/original.png);*/
+/*background-image: url(https://www.onlygfx.com/wp-content/uploads/2017/04/watercolor-stroke-blue-2-19-1024x180.png);*/
+background-image: url(https://www.onlygfx.com/wp-content/uploads/2017/04/watercolor-stroke-yellow-2-25-1024x170.png);
+background-repeat: no-repeat;
+height: auto;
+color: white;
+font-weight: bold;
+padding: 30px;
+text-align: center;
+margin: 20px 0px;
+}
+.textCTA{
+    padding: 15px;
+    color: red;
+    
+}
+.priceClass{
+    /*background-image: url(https://image.shutterstock.com/image-illustration/copyspace-banner-splash-wax-crayon-260nw-650909164.jpg);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_p--DyY11r8com2af1WhQlFxCNS1uvmcvUg&usqp=CAU);*/
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXqg3MQYsCtTK2O5g-UZRHOcVotIzsNOpY6A&usqp=CAU);
+    background-position: center;
+    padding: 20px 0px;
+    height: auto;
+    text-align: center;
+    font-size: 25px;
+}
+.imgIcon:hover{
+    cursor: pointer;
+    filter: drop-shadow(0rem 0rem 0.5rem #e23);
+}
+.imgIcon.active {
+    filter: drop-shadow(0rem 0rem 0.1rem #e23);
+    display: none;
+  }
+@media screen and (max-width: 900px){
+    .container, .containerForm{
+        flex-direction: column;
+    }
+}
+/*Cod formulare adaugare produse - site admin*/
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.campintro{
+    border-color: aqua;
+    margin: 0px 10px 20px 10px;
+    width: 90%;
+    padding: 15px 5px 15px 5px;
+}
+.containerForm{
+    /*background-color: rgb(235, 212, 183);*/
+    /*background-image: url(https://academiacontacto.com/wp-content/uploads/2018/02/shopping-en-Madrid.jpg);
+    */
+    background-image: url(https://www.shannonspringshotel.com/wp-content/uploads/2020/06/shopping-shannon-springs-2.jpg);
+    background-image: no-repeat;
+    background-position: center;
+    color:black;
+    width: 100%;
+    padding-bottom: 20px;
+}
+.linkClass{
+    color:blue;
+    text-decoration: underline;
+}

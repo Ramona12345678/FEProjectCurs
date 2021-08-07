@@ -1,0 +1,30 @@
+/*nav{
+    margin-top:100px;
+}*/
+nav a{
+    padding: 10px 10px;
+}
+nav a:hover{
+     background-color:rgb(42, 168, 218);
+    }
+#messageBarId{
+        margin-top: 40px;
+        margin-left: 40px;
+        border: gray 2px;
+    } 
+#nrOfProductsMessage{
+        padding-left: 40px;
+}
+.importantInfo{
+    color: red;
+    font-weight: bold;
+    font-size: larger;
+}
+#divLogo{
+    width: 100%;
+}
+@media only screen and (min-width: 600px){
+    nav a:hover{
+        padding: 10px 10px;
+        }
+}
